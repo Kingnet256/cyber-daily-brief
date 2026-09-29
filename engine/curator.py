@@ -113,28 +113,125 @@ def _takeaway(item: dict) -> str:
 X_LIMIT = 280
 TCO = 23                                  # X wraps every URL to 23 chars
 
+# Topic-aware, human-sounding hooks. Several per topic so posts feel varied;
+# the choice is seeded by the title so it's stable for a given story.
+_HOOKS = {
+    "vuln": ["\U0001F6A8 Zero-day alert:", "⚠️ Patch now:",
+             "\U0001F6A8 Actively exploited:", "\U0001F6E0️ Heads up, admins:"],
+    "breach": ["\U0001F513 Breach alert:", "⚠️ Data exposed:",
+               "\U0001F4E2 Another breach:"],
+    "ransom": ["\U0001F512 Ransomware:", "\U0001F480 Ransomware hit:"],
+    "phish": ["\U0001F3A3 Phishing watch:", "\U0001F4E7 Scam alert:"],
+    "malware": ["\U0001F9A0 Malware alert:", "⚠️ New malware:"],
+    "default": ["\U0001F6E1️ Security update:", "\U0001F510 Heads up:",
+                "\U0001F4F0 Today in cyber:"],
+}
+
+# Short, punchy "why you should care" lines (fit inside 280).
+_WHY_SHORT = {
+    "vuln": "Patch fast — attackers already are.",
+    "breach": "Reused that password anywhere? Change it + turn on MFA.",
+    "ransom": "Offline backups you've actually tested = your lifeline.",
+    "phish": "Slow down on urgent messages before you click.",
+    "malware": "Keep devices updated; don't run surprise files.",
+    "default": "Stay patched, use MFA, think before you click.",
+}
+
+
+def _topic(item: dict) -> str:
+    text = f"{item['title']} {item['summary']}".lower()
+    for key, triggers in (
+        ("ransom", ("ransom",)),
+        ("phish", ("phish",)),
+        ("vuln", ("cve-", "vulnerab", "zero-day", "0-day", "exploit", "patch", "rce")),
+        ("breach", ("data breach", "breach", "leaked", "stolen data")),
+        ("malware", ("malware", "backdoor", "spyware", "trojan", "botnet")),
+    ):
+        if any(t in text for t in triggers):
+            return key
+    return "default"
+
+
+def _pick(options: list, seed: int):
+    return options[seed % len(options)]
+
+
+def _first_sentence(text: str) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    m = re.search(r"(.+?[.!?])(?:\s|$)", text)
+    sent = m.group(1) if m else text
+    return sent.strip()
+
+
+def _lower_first(s: str) -> str:
+    return s[:1].lower() + s[1:] if s and s[0].isupper() and not s[1:2].isupper() else s
+
 
 def make_x_post(item: dict) -> str:
-    tags = " ".join(hashtags_for(item))
+    """A natural, eye-catching 3-line post that always fits within 280 chars.
+
+    hook (topic emoji)  /  what happened (plain language)  /  why you care
+    + hashtags + link.  Trims the middle line to fit; drops the 'why' line
+    only if space is very tight.
+    """
+    topic = _topic(item)
+    seed = abs(hash(item["title"]))
+    hook = _pick(_HOOKS[topic], seed)
+    why = _WHY_SHORT[topic]
+    tags = " ".join(hashtags_for(item)[:2])
     handle = config.BRAND["handle"]
-    tail = f"\n\n{tags}"
+    url = item["link"]
+
+    what_full = _first_sentence(item["summary"]) or item["title"]
+    # If the summary sentence is very long or missing, fall back to the title.
+    if len(what_full) > 200 or len(what_full) < 15:
+        what_full = item["title"]
+
+    tail_tags = f"\n{tags}"
     if handle:
-        tail += f"\nvia {handle}"
-    url_cost = TCO + 2                     # URL + newline/space
-    budget = X_LIMIT - len(tail) - url_cost
-    hook = _trim(item["title"], budget)
-    return f"{hook}{tail}\n{item['link']}"
+        tail_tags += f" · via {handle}"
+
+    for include_why in (True, False):
+        why_line = f"\n{why}" if include_why else ""
+        # overhead = hook + newline + WHAT + why + tags + newline + url(23)
+        overhead = len(hook) + 1 + len(why_line) + len(tail_tags) + 1 + TCO
+        budget_what = X_LIMIT - overhead
+        if budget_what >= (30 if include_why else 15):
+            what = _trim(what_full, budget_what)
+            return f"{hook} {what}{why_line}{tail_tags}\n{url}"
+
+    # Absolute fallback: hook + trimmed title + link (guaranteed to fit).
+    budget = X_LIMIT - len(hook) - 1 - 1 - TCO
+    return f"{hook} {_trim(item['title'], max(20, budget))}\n{url}"
 
 
-def make_linkedin_post(item: dict) -> str:
+def make_linkedin_post(item: dict) -> dict:
+    """Return {'body', 'first_comment'}.
+
+    Best practice: keep the outbound link OUT of the post body (LinkedIn
+    suppresses/flags link posts) and paste it as the first comment instead.
+    """
     tags = " ".join(hashtags_for(item))
-    summary = _trim(item["summary"] or item["title"], 320)
+    summary = _trim(item["summary"] or item["title"], 400)
     takeaway = _takeaway(item)
     src = item.get("_source", "")
-    return (
+    topic = _topic(item)
+    opener = {
+        "vuln": "A vulnerability worth acting on today \U0001F447",
+        "breach": "Another reminder to lock down your accounts \U0001F447",
+        "ransom": "Ransomware is still winning where backups are weak \U0001F447",
+        "phish": "Phishing keeps evolving — here's the latest \U0001F447",
+        "malware": "New malware activity to be aware of \U0001F447",
+        "default": "Today's cybersecurity read \U0001F447",
+    }[topic]
+
+    body = (
         f"\U0001F510 {item['title']}\n\n"
+        f"{opener}\n\n"
         f"{summary}\n\n"
         f"⚡ Why it matters: {takeaway}\n\n"
-        f"\U0001F517 Read the full story ({src}): {item['link']}\n\n"
+        f"Are your systems covered? What's your team doing about this? \U0001F4AC\n\n"
         f"{tags}"
     )
+    first_comment = f"\U0001F517 Source ({src}): {item['link']}"
+    return {"body": body, "first_comment": first_comment}

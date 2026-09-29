@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Archive — Kasspar Cyber Daily</title>
+<meta name="description" content="Your daily cybersecurity post, ready to review and share."/>
+<meta name="theme-color" content="#0B6B72"/>
+<link rel="apple-touch-icon" href="2026-09-29/card_0.png"/>
+<style>
+  :root {
+    --teal:#0B6B72; --teal-d:#08535A; --orange:#E9A24C; --cream:#F4F1EA;
+    --ink:#0d2a2c; --card:#ffffff; --muted:#5b6f70;
+  }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--cream); color:var(--ink);
+    padding:env(safe-area-inset-top) 0 40px; }
+  header { background:linear-gradient(135deg,var(--teal),var(--teal-d)); color:#fff;
+    padding:26px 20px 22px; }
+  header .wrap { max-width:680px; margin:0 auto; }
+  header h1 { margin:0; font-size:20px; letter-spacing:.5px; }
+  header p { margin:4px 0 0; color:#bfe3e5; font-size:14px; }
+  header .nav { margin-top:10px; }
+  header .nav a { color:#fff; background:rgba(255,255,255,.16); text-decoration:none;
+    font-size:13px; font-weight:600; padding:6px 12px; border-radius:999px; }
+  main { max-width:680px; margin:0 auto; padding:16px; }
+  .card { background:var(--card); border-radius:16px; padding:16px; margin:16px 0;
+    box-shadow:0 2px 14px rgba(8,83,90,.10); }
+  .card.primary { border:2px solid var(--orange); }
+  .badge { display:inline-block; font-size:11px; font-weight:700; letter-spacing:.8px;
+    color:var(--teal-d); background:#e7f1f1; padding:5px 10px; border-radius:999px; }
+  .thumb { width:100%; border-radius:12px; margin:12px 0; display:block; }
+  h2 { font-size:18px; line-height:1.35; margin:6px 0 2px; }
+  .src { color:var(--muted); font-size:13px; margin:0 0 6px; }
+  .post { margin-top:14px; }
+  .post-h { font-size:12px; font-weight:700; color:var(--muted); text-transform:uppercase;
+    letter-spacing:.6px; display:flex; justify-content:space-between; }
+  pre { white-space:pre-wrap; word-wrap:break-word; background:#f3f6f6; border:1px solid #e2ecec;
+    border-radius:10px; padding:12px; font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;
+    margin:6px 0 10px; }
+  .hint { font-size:12px; color:var(--muted); margin:2px 0 6px; }
+  .btns { display:flex; gap:10px; flex-wrap:wrap; }
+  .btn { flex:1 1 auto; text-align:center; text-decoration:none; border:0; cursor:pointer;
+    padding:13px 14px; border-radius:12px; font-size:15px; font-weight:600; }
+  .btn.x { background:#111; color:#fff; }
+  .btn.li { background:#0a66c2; color:#fff; }
+  .btn.ghost { background:#eef3f3; color:var(--teal-d); flex:0 0 auto; }
+  .arc-list { list-style:none; padding:0; margin:0; }
+  .arc-list li { background:var(--card); border-radius:12px; padding:14px 16px; margin:10px 0;
+    box-shadow:0 1px 8px rgba(8,83,90,.08); }
+  .arc-list a { color:var(--teal-d); font-weight:700; text-decoration:none; }
+  .arc-list .titles { color:var(--muted); font-size:13px; margin-top:4px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:24px 16px; }
+  .toast { position:fixed; left:50%; bottom:28px; transform:translateX(-50%);
+    background:var(--teal-d); color:#fff; padding:12px 18px; border-radius:12px;
+    opacity:0; transition:opacity .2s; pointer-events:none; font-size:14px; }
+  .toast.show { opacity:1; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>🛡️ Kasspar Cyber Daily</h1>
+  <p>Every past daily brief, kept for good.</p>
+  <div class="nav"><a href="../">← Latest brief</a></div>
+</div></header>
+<main>
+<ul class="arc-list">
+      <li>
+        <a href="2026-09-29/">2026-09-29</a>
+        <div class="titles">Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway · Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks · CISA Adds Two Known Exploited Vulnerabilities to Catalog</div>
+      </li></ul>
+</main>
+<footer>Auto-curated from trusted security sources. You approve every post.<br/>kasspar.com</footer>
+<div id="toast" class="toast"></div>
+<script>
+function toast(msg){var t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(window._tt);window._tt=setTimeout(function(){t.classList.remove('show')},1600);}
+function copyEl(id,btn,openUrl){
+  var txt=document.getElementById(id).innerText;
+  function done(){toast(openUrl?'Copied — paste into LinkedIn':'Copied to clipboard');
+    if(openUrl) setTimeout(function(){window.open(openUrl,'_blank')},350);}
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(done,function(){fallback(txt);done();});
+  } else { fallback(txt); done(); }
+}
+function fallback(txt){var ta=document.createElement('textarea');ta.value=txt;
+  ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);
+  ta.focus();ta.select();try{document.execCommand('copy')}catch(e){}document.body.removeChild(ta);}
+</script>
+</body>
+</html>

@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "cyber-daily-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/archive.json
+          git add site/archive.json site/archive
           git commit -m "chore: archive $(date -u +%F)" || echo "no archive changes"
           git push || echo "nothing to push"
 
