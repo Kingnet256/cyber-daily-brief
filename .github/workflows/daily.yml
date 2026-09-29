@@ -1,0 +1,49 @@
+name: Daily Cyber Brief
+
+on:
+  schedule:
+    - cron: "0 6 * * *"      # 06:00 UTC every day
+  workflow_dispatch: {}       # allow manual "Run workflow"
+
+permissions:
+  contents: write             # to persist archive.json
+  pages: write                # to deploy to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate today's brief
+        run: python -m engine.generate
+
+      - name: Persist archive history
+        run: |
+          git config user.name "cyber-daily-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/archive.json
+          git commit -m "chore: archive $(date -u +%F)" || echo "no archive changes"
+          git push || echo "nothing to push"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
