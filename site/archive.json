@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-30",
+    "stories": [
+      {
+        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html"
+      },
+      {
+        "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks"
+      },
+      {
+        "title": "Bitget hacked via zero-day in third-party security products",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "stories": [
       {
