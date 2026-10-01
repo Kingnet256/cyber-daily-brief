@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-01",
+    "stories": [
+      {
+        "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/"
+      },
+      {
+        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html"
+      },
+      {
+        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "stories": [
       {
