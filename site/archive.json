@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-03",
+    "stories": [
+      {
+        "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/"
+      },
+      {
+        "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
+      },
+      {
+        "title": "Frontline Education breach exposes school district employee data",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "stories": [
       {
