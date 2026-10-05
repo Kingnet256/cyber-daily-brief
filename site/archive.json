@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-05",
+    "stories": [
+      {
+        "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/"
+      },
+      {
+        "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+      },
+      {
+        "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
+      }
+    ]
+  },
+  {
     "date": "2026-10-04",
     "stories": [
       {
