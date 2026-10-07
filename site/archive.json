@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-07",
+    "stories": [
+      {
+        "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/"
+      },
+      {
+        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+      },
+      {
+        "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-06",
     "stories": [
       {
