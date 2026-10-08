@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-08",
+    "stories": [
+      {
+        "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/"
+      },
+      {
+        "title": "ASOS links data breach to social engineering attack, credential theft",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/"
+      },
+      {
+        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html"
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "stories": [
       {
