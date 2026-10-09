@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-09",
+    "stories": [
+      {
+        "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      },
+      {
+        "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/"
+      },
+      {
+        "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "stories": [
       {
