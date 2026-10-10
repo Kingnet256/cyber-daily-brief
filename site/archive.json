@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-10",
+    "stories": [
+      {
+        "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/"
+      },
+      {
+        "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+      },
+      {
+        "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "stories": [
       {
