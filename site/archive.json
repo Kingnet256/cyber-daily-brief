@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-13",
+    "stories": [
+      {
+        "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+      },
+      {
+        "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
+      },
+      {
+        "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack"
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "stories": [
       {
