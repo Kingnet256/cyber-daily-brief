@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-17",
+    "stories": [
+      {
+        "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+      },
+      {
+        "title": "BeyondTrust patches zero-day exploited in attacks since August",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/"
+      },
+      {
+        "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "stories": [
       {
