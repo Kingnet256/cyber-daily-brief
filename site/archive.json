@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-18",
+    "stories": [
+      {
+        "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
+      },
+      {
+        "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/"
+      },
+      {
+        "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "stories": [
       {
