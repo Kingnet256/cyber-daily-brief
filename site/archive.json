@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-20",
+    "stories": [
+      {
+        "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+      },
+      {
+        "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/"
+      },
+      {
+        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "stories": [
       {
