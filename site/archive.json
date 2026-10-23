@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-23",
+    "stories": [
+      {
+        "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+      },
+      {
+        "title": "State Bank of India Suffers a Customer PII Data Leak",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak"
+      },
+      {
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "stories": [
       {
