@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-26",
+    "stories": [
+      {
+        "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+      },
+      {
+        "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
+      },
+      {
+        "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "stories": [
       {
