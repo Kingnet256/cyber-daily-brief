@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-29",
+    "stories": [
+      {
+        "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+      },
+      {
+        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+      },
+      {
+        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "stories": [
       {
