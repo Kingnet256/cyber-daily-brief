@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-31",
+    "stories": [
+      {
+        "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+      },
+      {
+        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+      },
+      {
+        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "stories": [
       {
