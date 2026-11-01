@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-01",
+    "stories": [
+      {
+        "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+      },
+      {
+        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
+      },
+      {
+        "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "stories": [
       {
