@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-02",
+    "stories": [
+      {
+        "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/"
+      },
+      {
+        "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/"
+      },
+      {
+        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-01",
     "stories": [
       {
