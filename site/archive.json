@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-04",
+    "stories": [
+      {
+        "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+      },
+      {
+        "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/"
+      },
+      {
+        "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "stories": [
       {
