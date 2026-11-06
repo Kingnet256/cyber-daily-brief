@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-06",
+    "stories": [
+      {
+        "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+      },
+      {
+        "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
+      },
+      {
+        "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "stories": [
       {
