@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-09",
+    "stories": [
+      {
+        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+      },
+      {
+        "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
+      },
+      {
+        "title": "FBI agent stole $2.5 million in crypto from hackers under investigation",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "stories": [
       {
