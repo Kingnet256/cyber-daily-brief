@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-10",
+    "stories": [
+      {
+        "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+      },
+      {
+        "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/"
+      },
+      {
+        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "stories": [
       {
