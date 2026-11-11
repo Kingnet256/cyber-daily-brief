@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-11",
+    "stories": [
+      {
+        "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+      },
+      {
+        "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+        "source": "Dark Reading",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves"
+      },
+      {
+        "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "stories": [
       {
