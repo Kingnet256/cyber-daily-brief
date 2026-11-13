@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-13",
+    "stories": [
+      {
+        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+      },
+      {
+        "title": "Siemens RUGGEDCOM APE1808",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05"
+      },
+      {
+        "title": "Siemens Building Automation and Energy Products",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "stories": [
       {
