@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-14",
+    "stories": [
+      {
+        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html"
+      },
+      {
+        "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+      },
+      {
+        "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "stories": [
       {
