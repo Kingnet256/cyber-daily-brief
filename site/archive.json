@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-18",
+    "stories": [
+      {
+        "title": "Dorsett Controls InfoScan",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+      },
+      {
+        "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+      },
+      {
+        "title": "Siemens ROS#",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "stories": [
       {
