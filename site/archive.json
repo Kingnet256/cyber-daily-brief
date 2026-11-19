@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-19",
+    "stories": [
+      {
+        "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+      },
+      {
+        "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/"
+      },
+      {
+        "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "stories": [
       {
