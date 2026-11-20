@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-20",
+    "stories": [
+      {
+        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+      },
+      {
+        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+      },
+      {
+        "title": "Elecbrakes EB2, VM1, ELBC2000",
+        "source": "CISA Advisories",
+        "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "stories": [
       {
