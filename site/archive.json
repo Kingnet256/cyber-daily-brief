@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-26",
+    "stories": [
+      {
+        "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/"
+      },
+      {
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+      },
+      {
+        "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "stories": [
       {
