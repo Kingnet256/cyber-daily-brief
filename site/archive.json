@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-28",
+    "stories": [
+      {
+        "title": "Drupal warns of new site takeover flaw exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+      },
+      {
+        "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/"
+      },
+      {
+        "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+      }
+    ]
+  },
+  {
     "date": "2026-11-27",
     "stories": [
       {
